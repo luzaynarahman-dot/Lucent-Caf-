@@ -4,86 +4,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Lucent Cafe | Premium Coffee Experience</title>
+  
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Purple+Purse&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
   <!-- External CSS -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <!-- Navigation Bar -->
+
+  <!-- ========== NAVIGATION BAR ========== -->
   <nav class="navbar">
     <div class="nav-container">
       <div class="logo">
-        <span class="logo-icon"><img src="assets/beans-icon.png"> </span>
+        <span class="logo-icon"><img src="assets/beans-icon.png" alt="logo"></span>
         <span class="logo-text">LUCENT</span>
       </div>
       
       <div class="nav-links" id="navLinks">
         <a href="#home" class="nav-link active">Home</a>
-        <a href="#menu" class="nav-link">Menu</a>
-        <a href="#story" class="nav-link">Our Story</a>
-        <a href="#contact" class="nav-link">Contact</a>
+        <a href="#experience" class="nav-link">Menu</a>
+        <a href="#philosophy" class="nav-link">Our Story</a>
+        <a href="#reviews" class="nav-link">Reviews</a>
       </div>
       
       <div class="nav-actions">
-        <!-- Slide Toggle Button -->
         <div class="toggle-wrapper">
           <label class="slide-toggle">
             <input type="checkbox" id="themeToggle">
             <span class="slider"></span>
           </label>
         </div>
-        
-        <!-- Mobile Menu Button -->
-        <button class="mobile-menu-btn" id="mobileMenuBtn">
-          <i class="fas fa-bars"></i>
-        </button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn"><i class="fas fa-bars"></i></button>
       </div>
     </div>
   </nav>
-  
-  <!-- Hero Section with BOLD COFFEE Overlay -->
+
+  <!-- ========== HERO SECTION ========== -->
   <section class="hero" id="home">
-    
     <div class="hero-container">
       <div class="hero-content">
-        <div class="hero-badge">
-          <span class="badge-text">Since 2024</span>
-        </div>
-        <h1 class="hero-title">
-          <span class="title-line">Where Light Meets</span>
-          <span class="title-line highlight">The Perfect Brew</span>
-        </h1>
-        <p class="hero-description">
-          Step into Lucent — where every cup tells a story. Artisanal coffee crafted with 
-          precision, served with warmth. Experience the perfect balance of flavor and ambiance.
-        </p>
+        <div class="hero-badge"><span class="badge-text">Since 2024</span></div>
+        <h1 class="hero-title"><span class="title-line">Where Light Meets</span><span class="title-line highlight">The Perfect Brew</span></h1>
+        <p class="hero-description">Step into Lucent — where every cup tells a story. Artisanal coffee crafted with precision, served with warmth.</p>
         <div class="hero-buttons">
-          <button class="btn btn-primary">
-            Explore Menu <i class="fas fa-arrow-right"></i>
-          </button>
-          <button class="btn btn-secondary">
-            Order Now <i class="fas fa-coffee"></i>
-          </button>
+          <button class="btn btn-primary">Explore Menu <i class="fas fa-arrow-right"></i></button>
+          <button class="btn btn-secondary">Order Now <i class="fas fa-coffee"></i></button>
         </div>
         <div class="hero-stats">
-          <div class="stat">
-            <span class="stat-number">10+</span>
-            <span class="stat-label">Specialty Blends</span>
-          </div>
-          <div class="stat">
-            <span class="stat-number">100%</span>
-            <span class="stat-label">Arabica Beans</span>
-          </div>
-          <div class="stat">
-            <span class="stat-number">Fresh</span>
-            <span class="stat-label">Daily Roast</span>
-          </div>
+          <div class="stat"><span class="stat-number">10+</span><span class="stat-label">Specialty Blends</span></div>
+          <div class="stat"><span class="stat-number">100%</span><span class="stat-label">Arabica Beans</span></div>
+          <div class="stat"><span class="stat-number">Fresh</span><span class="stat-label">Daily Roast</span></div>
         </div>
       </div>
-      
       <div class="hero-image-wrapper">
         <div class="hero-image-container">
           <img src="assets/black-coffee-cup.png" alt="Lucent Signature Coffee" class="hero-main-image" id="heroImage">
@@ -92,763 +68,186 @@
       </div>
     </div>
   </section>
-  
-<!-- ========== THE JOURNEY OF EXCELLENCE ========== -->
-<section class="journey-excellence" id="philosophy">
-  <div class="journey-bg"></div>
-  
-  <div class="journey-container">
-    
-    <!-- Section Header -->
-    <div class="journey-header">
-      <span class="journey-badge">the lucent standard</span>
-      <h2 class="journey-title">
-        more than<br>
-        <span class="journey-highlight">just a cup of coffee</span>
-      </h2>
-      <div class="journey-line"></div>
-      <p class="journey-subtitle">
-        from bean to cup, every step reflects our commitment to excellence, ethics, and artistry
-      </p>
-    </div>
-    
-    <!-- Timeline Journey -->
-    <div class="journey-timeline">
-      
-      <!-- Step 1 -->
-      <div class="timeline-step">
-        <div class="step-connector"></div>
-        <div class="step-visual">
-          <div class="step-image-wrapper">
-            <img src="assets/ethical-sourcing.png" alt="Ethical Sourcing" class="step-image" id="sourcingImg">
-            <div class="step-glow"></div>
-          </div>
-          <div class="step-number">01</div>
-        </div>
-        <div class="step-content">
-          <h3 class="step-title">ethical sourcing</h3>
-          <p class="step-description">
-            we partner directly with family-owned farms across ethiopia, colombia, and guatemala — ensuring fair wages, sustainable practices, and the highest quality arabica beans.
-          </p>
-          <div class="step-stat">
-            <span class="stat-number">10+</span>
-            <span class="stat-label">partner farms</span>
-          </div>
-        </div>
+
+  <!-- ========== JOURNEY OF EXCELLENCE SECTION ========== -->
+  <section class="journey-excellence" id="philosophy">
+    <div class="journey-bg"></div>
+    <div class="journey-container">
+      <div class="journey-header">
+        <span class="journey-badge">the lucent standard</span>
+        <h2 class="journey-title">more than<br><span class="journey-highlight">just a cup of coffee</span></h2>
+        <div class="journey-line"></div>
+        <p class="journey-subtitle">from bean to cup, every step reflects our commitment to excellence, ethics, and artistry</p>
       </div>
       
-      <!-- Step 2 -->
-      <div class="timeline-step">
-        <div class="step-connector"></div>
-        <div class="step-visual">
-          <div class="step-image-wrapper">
-            <img src="assets/master-roasting.png" alt="Master Roasting" class="step-image" id="roastingImg">
-            <div class="step-glow"></div>
+      <div class="journey-timeline">
+        <div class="timeline-step">
+          <div class="step-connector"></div>
+          <div class="step-visual">
+            <div class="step-image-wrapper"><img src="assets/ethical-sourcing.png" alt="Ethical Sourcing" class="step-image"><div class="step-glow"></div></div>
+            <div class="step-number">01</div>
           </div>
-          <div class="step-number">02</div>
-        </div>
-        <div class="step-content">
-          <h3 class="step-title">master roasting</h3>
-          <p class="step-description">
-            our award-winning roasters bring decades of expertise, unlocking unique flavor profiles through precise small-batch roasting techniques in our micro-roastery.
-          </p>
-          <div class="step-stat">
-            <span class="stat-number">15+</span>
-            <span class="stat-label">years experience</span>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Step 3 -->
-      <div class="timeline-step">
-        <div class="step-connector"></div>
-        <div class="step-visual">
-          <div class="step-image-wrapper">
-            <img src="assets/artisan-craft.png" alt="Artisan Craft" class="step-image" id="craftImg">
-            <div class="step-glow"></div>
-          </div>
-          <div class="step-number">03</div>
-        </div>
-        <div class="step-content">
-          <h3 class="step-title">artisan craft</h3>
-          <p class="step-description">
-            trained in the art of specialty coffee, our baristas treat every cup as a masterpiece — from precise espresso extraction to intricate latte art.
-          </p>
-          <div class="step-stat">
-            <span class="stat-number">1000+</span>
-            <span class="stat-label">cups daily</span>
-          </div>
-        </div>
-      </div>
-      
-    </div>
-    
-    <!-- Closing Quote -->
-    <div class="journey-quote">
-      <div class="quote-mark">"</div>
-      <p class="quote-text">
-        coffee is not just a beverage. it is a ritual, a connection, a moment of stillness in a busy world.
-      </p>
-      <div class="quote-author">— lucent philosophy</div>
-    </div>
-    
-  </div>
-  
-  <!-- Wave Divider -->
-  <div class="journey-wave">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none">
-      <path fill="var(--bg-primary)" d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,100L1360,100C1280,100,1120,100,960,100C800,100,640,100,480,100C320,100,160,100,80,100L0,100Z"></path>
-    </svg>
-  </div>
-</section>
-
-<!--====== coffee experience section =======-->
-<section class="coffee-experience" id="experience">
-  <div class="modern-title-box">
-        <h2 class="bg-outline-text">COLLECTION</h2>
-        <div class="foreground-content">
-            <span class="sub-badge">Lucent Premium</span>
-            <h1 class="main-heading">Signature Selection</h1>
-        </div>
-    </div>
-  <div class="dynamic-bg-text" id="dynamicBgText">ESPRESSO</div>
-  
-  <div class="experience-container">
-    <div class="wheel-display-wrapper">
-      <div class="experience-wheel" id="experienceWheel">
-        <div class="wheel-item" data-index="0">
-          <img src="assets/espresso.png" alt="Espresso">
-        </div>
-        <div class="wheel-item" data-index="1">
-          <img src="assets/latte.png" alt="Latte">
-        </div>
-        <div class="wheel-item" data-index="2">
-          <img src="assets/matcha.png" alt="Matcha">
-        </div>
-        <div class="wheel-item" data-index="3">
-          <img src="assets/cappuccino.png" alt="Cappuccino">
-        </div>
-        <div class="wheel-item" data-index="4">
-          <img src="assets/macchiato.png" alt="Macchiato">
-        </div>
-        <div class="wheel-item" data-index="5">
-          <img src="assets/iced-coffee.png" alt="Iced Coffee">
-        </div>
-      </div>
-
-      <div class="active-coffee-holder">
-        <img src="assets/espresso.png" id="mainActiveImg" alt="Coffee Display">
-        <div class="active-glow"></div>
-      </div>
-    </div>
-
-    <div class="experience-details">
-      <div class="details-header">
-        <h2 class="details-title" id="coffeeTitle">Classic Espresso</h2>
-      </div>
-      <p class="details-description" id="coffeeDescription">
-        Our signature espresso shot—crafted from the finest Arabica beans.
-      </p>
-      <div class="details-features" id="featuresContainer"></div>
-      
-      <div class="experience-controls">
-        <button class="control-btn" id="prevCoffeeBtn"><i class="fas fa-arrow-left"></i></button>
-        <button class="control-btn" id="nextCoffeeBtn"><i class="fas fa-arrow-right"></i></button>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- ========== COFFEE ORDER & CUSTOMIZATION SECTION ========== -->
-<section class="order-customization" id="orderSection">
-  <div class="section-container">
-
-    <!-- 1) HEADER AREA -->
-    <div class="section-header">
-      <span class="header-badge">artisan selection</span>
-      <h2 class="section-title">find & craft <span class="title-accent">your coffee</span></h2>
-      <p class="section-subtitle">curated blends · personalized ritual · every sip tells a story</p>
-      <div class="header-underline"></div>
-    </div>
-
-    <!-- 2) SMART SEARCH BAR -->
-    <div class="search-wrapper">
-      <div class="search-glass">
-        <i class="fas fa-search search-icon"></i>
-        <input type="text" id="coffeeSearch" class="search-input" placeholder="Search coffee (Espresso, Latte, Mocha...)" autocomplete="off">
-        <button class="search-clear" id="searchClearBtn" aria-label="Clear search"><i class="fas fa-times"></i></button>
-      </div>
-    </div>
-
-    <!-- 3) POPULAR COFFEE SHOWCASE (horizontal scroll + interactive cards) -->
-    <div class="showcase-header">
-      <span class="showcase-label">signature selection</span>
-      <div class="scroll-hint"><i class="fas fa-arrow-right"></i> swipe</div>
-    </div>
-    <div class="coffee-scroll-wrapper">
-      <div class="coffee-horizontal" id="coffeeHorizontalGrid">
-        <!-- dynamic JS will inject coffee items -->
-      </div>
-    </div>
-
-    <!-- 4) CUSTOM COFFEE BUILDER (main interactive feature) -->
-    <div class="builder-section">
-      <div class="builder-head">
-        <span class="builder-badge">your ritual</span>
-        <h3 class="builder-title">build your perfect cup</h3>
-      </div>
-
-      <div class="builder-grid">
-        <!-- LEFT: customization options -->
-        <div class="customizer-panel">
-          
-          <!-- Size (segmented) -->
-          <div class="option-group">
-            <div class="option-label"><i class="fas fa-cup-straw"></i> size</div>
-            <div class="pill-group" id="sizeGroup">
-              <button class="pill-btn" data-size="small">small <span class="size-ml">240ml</span></button>
-              <button class="pill-btn active" data-size="medium">medium <span class="size-ml">360ml</span></button>
-              <button class="pill-btn" data-size="large">large <span class="size-ml">480ml</span></button>
-            </div>
-          </div>
-
-          <!-- Milk type -->
-          <div class="option-group">
-            <div class="option-label"><i class="fas fa-tint"></i> milk</div>
-            <div class="pill-group" id="milkGroup">
-              <button class="pill-btn active" data-milk="regular">regular</button>
-              <button class="pill-btn" data-milk="almond">almond</button>
-              <button class="pill-btn" data-milk="oat">oat</button>
-            </div>
-          </div>
-
-          <!-- Sugar intensity -->
-          <div class="option-group">
-            <div class="option-label"><i class="fas fa-cube"></i> sweetness</div>
-            <div class="pill-group" id="sugarGroup">
-              <button class="pill-btn" data-sugar="low">low</button>
-              <button class="pill-btn active" data-sugar="medium">medium</button>
-              <button class="pill-btn" data-sugar="high">high</button>
-            </div>
-          </div>
-
-          <!-- Extras (checkbox style but using elegant toggles) -->
-          <div class="option-group extras-group">
-            <div class="option-label"><i class="fas fa-sparkle"></i> extra indulgences</div>
-            <div class="extras-grid" id="extrasGrid">
-              <label class="extra-chip">
-                <input type="checkbox" data-extra="chocolate" value="chocolate">
-                <span class="extra-name">chocolate topping</span>
-                <span class="extra-price">+0.60</span>
-              </label>
-              <label class="extra-chip">
-                <input type="checkbox" data-extra="caramel" value="caramel">
-                <span class="extra-name">caramel drizzle</span>
-                <span class="extra-price">+0.50</span>
-              </label>
-              <label class="extra-chip">
-                <input type="checkbox" data-extra="whipped" value="whipped">
-                <span class="extra-name">whipped cream</span>
-                <span class="extra-price">+0.70</span>
-              </label>
-            </div>
-          </div>
-        </div>
-
-        <!-- RIGHT: live preview panel -->
-        <div class="preview-panel">
-          <div class="preview-glass">
-            <div class="coffee-visual">
-              <div class="cup-outer">
-                <img src="/assets/paper-cup.png" alt="coffee preview" class="preview-image" id="previewImage">
-                <div class="preview-glow"></div>
-              </div>
-              <div class="visual-badge" id="dynamicBadge">medium · regular · medium</div>
-            </div>
-            <div class="preview-details">
-              <div class="price-preview">
-                <span class="price-label">estimated price</span>
-                <div class="price-value"><span class="currency">$</span><span id="dynamicPrice">5.20</span></div>
-              </div>
-              <div class="selected-notes" id="selectedNotes">size: medium | milk: regular | sweetness: medium</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 5) FINAL ACTION AREA -->
-    <div class="action-area">
-      <button class="order-cta" id="createOrderBtn">
-        <span>create & order coffee</span>
-        <i class="fas fa-arrow-right"></i>
-      </button>
-      <p class="action-note">each blend is freshly crafted after order</p>
-    </div>
-  </div>
-</section>
-
-<!-- ========== TESTIMONIALS & REVIEWS SECTION ========== -->
-<section class="reviews-section" id="reviews">
-  <div class="reviews-bg-glow"></div>
-  
-  <div class="reviews-container">
-    
-    <!-- Header Area -->
-    <div class="reviews-header">
-      <span class="reviews-badge">community voices</span>
-      <h2 class="reviews-title">
-        loved by<br>
-        <span class="title-accent">coffee lovers</span>
-      </h2>
-      <p class="reviews-subtitle">real experiences from our cherished patrons</p>
-      <div class="reviews-divider"></div>
-    </div>
-    
-    <!-- Rating Overview -->
-    <div class="rating-overview">
-      <div class="rating-score">
-        <div class="score-number">4.9</div>
-        <div class="score-stars">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star-half-alt"></i>
-        </div>
-        <div class="score-count">based on 2,847 reviews</div>
-      </div>
-      
-      <div class="rating-bars">
-        <div class="bar-item">
-          <span class="bar-label">5 star</span>
-          <div class="bar-bg"><div class="bar-fill" style="width: 85%"></div></div>
-          <span class="bar-percent">85%</span>
-        </div>
-        <div class="bar-item">
-          <span class="bar-label">4 star</span>
-          <div class="bar-bg"><div class="bar-fill" style="width: 10%"></div></div>
-          <span class="bar-percent">10%</span>
-        </div>
-        <div class="bar-item">
-          <span class="bar-label">3 star</span>
-          <div class="bar-bg"><div class="bar-fill" style="width: 3%"></div></div>
-          <span class="bar-percent">3%</span>
-        </div>
-        <div class="bar-item">
-          <span class="bar-label">2 star</span>
-          <div class="bar-bg"><div class="bar-fill" style="width: 1%"></div></div>
-          <span class="bar-percent">1%</span>
-        </div>
-        <div class="bar-item">
-          <span class="bar-label">1 star</span>
-          <div class="bar-bg"><div class="bar-fill" style="width: 1%"></div></div>
-          <span class="bar-percent">1%</span>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Filter Buttons -->
-    <div class="review-filters">
-      <button class="filter-btn active" data-filter="all">all reviews</button>
-      <button class="filter-btn" data-filter="5">5 star</button>
-      <button class="filter-btn" data-filter="4">4 star</button>
-      <button class="filter-btn" data-filter="3">3 star</button>
-    </div>
-    
-    <!-- Reviews Horizontal Scroll -->
-    <div class="reviews-scroll-wrapper">
-      <div class="reviews-track" id="reviewsTrack">
-        
-        <!-- Review Card 1 -->
-        <div class="review-card" data-rating="5">
-          <div class="review-quote"><i class="fas fa-quote-left"></i></div>
-          <div class="review-content">
-            <p class="review-text">
-              "The best espresso I've ever had. Rich, smooth, and absolutely perfect. Lucent has become my daily ritual."
-            </p>
-          </div>
-          <div class="reviewer-info">
-            <div class="reviewer-avatar">
-              <img src="assets/avatar-1.png" alt="Sarah M." onerror="this.src='https://ui-avatars.com/api/?name=SM&background=c47a3e&color=fff'">
-            </div>
-            <div class="reviewer-details">
-              <h4 class="reviewer-name">Sarah Mitchell</h4>
-              <div class="reviewer-rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-              <span class="review-date">2 days ago</span>
-            </div>
-            <div class="verified-badge">
-              <i class="fas fa-check-circle"></i>
-              <span>verified</span>
-            </div>
+          <div class="step-content">
+            <h3 class="step-title">ethical sourcing</h3>
+            <p class="step-description">we partner directly with family-owned farms across ethiopia, colombia, and guatemala — ensuring fair wages, sustainable practices, and the highest quality arabica beans.</p>
+            <div class="step-stat"><span class="stat-number">10+</span><span class="stat-label">partner farms</span></div>
           </div>
         </div>
         
-        <!-- Review Card 2 -->
-        <div class="review-card" data-rating="5">
-          <div class="review-quote"><i class="fas fa-quote-left"></i></div>
-          <div class="review-content">
-            <p class="review-text">
-              "Their cold brew is exceptional. Smooth, never bitter, and the perfect pick-me-up for afternoon slumps."
-            </p>
+        <div class="timeline-step">
+          <div class="step-connector"></div>
+          <div class="step-visual">
+            <div class="step-image-wrapper"><img src="assets/master-roasting.png" alt="Master Roasting" class="step-image"><div class="step-glow"></div></div>
+            <div class="step-number">02</div>
           </div>
-          <div class="reviewer-info">
-            <div class="reviewer-avatar">
-              <img src="assets/avatar-2.png" alt="James C." onerror="this.src='https://ui-avatars.com/api/?name=JC&background=c47a3e&color=fff'">
-            </div>
-            <div class="reviewer-details">
-              <h4 class="reviewer-name">James Chen</h4>
-              <div class="reviewer-rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-              <span class="review-date">1 week ago</span>
-            </div>
-            <div class="verified-badge">
-              <i class="fas fa-check-circle"></i>
-              <span>verified</span>
-            </div>
+          <div class="step-content">
+            <h3 class="step-title">master roasting</h3>
+            <p class="step-description">our award-winning roasters bring decades of expertise, unlocking unique flavor profiles through precise small-batch roasting techniques in our micro-roastery.</p>
+            <div class="step-stat"><span class="stat-number">15+</span><span class="stat-label">years experience</span></div>
           </div>
         </div>
         
-        <!-- Review Card 3 -->
-        <div class="review-card" data-rating="5">
-          <div class="review-quote"><i class="fas fa-quote-left"></i></div>
-          <div class="review-content">
-            <p class="review-text">
-              "Finally found a place that takes coffee seriously. The baristas are true artists. Highly recommended!"
-            </p>
+        <div class="timeline-step">
+          <div class="step-connector"></div>
+          <div class="step-visual">
+            <div class="step-image-wrapper"><img src="assets/artisan-craft.png" alt="Artisan Craft" class="step-image"><div class="step-glow"></div></div>
+            <div class="step-number">03</div>
           </div>
-          <div class="reviewer-info">
-            <div class="reviewer-avatar">
-              <img src="assets/avatar-3.png" alt="Emma W." onerror="this.src='https://ui-avatars.com/api/?name=EW&background=c47a3e&color=fff'">
-            </div>
-            <div class="reviewer-details">
-              <h4 class="reviewer-name">Emma Watson</h4>
-              <div class="reviewer-rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-              <span class="review-date">2 weeks ago</span>
-            </div>
-            <div class="verified-badge">
-              <i class="fas fa-check-circle"></i>
-              <span>verified</span>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Review Card 4 (4 Star) -->
-        <div class="review-card" data-rating="4">
-          <div class="review-quote"><i class="fas fa-quote-left"></i></div>
-          <div class="review-content">
-            <p class="review-text">
-              "Lovely atmosphere and great coffee. The caramel latte is my favorite. A bit pricey but worth it."
-            </p>
-          </div>
-          <div class="reviewer-info">
-            <div class="reviewer-avatar">
-              <img src="assets/avatar-4.png" alt="David K." onerror="this.src='https://ui-avatars.com/api/?name=DK&background=c47a3e&color=fff'">
-            </div>
-            <div class="reviewer-details">
-              <h4 class="reviewer-name">David Kim</h4>
-              <div class="reviewer-rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </div>
-              <span class="review-date">3 weeks ago</span>
-            </div>
-            <div class="verified-badge">
-              <i class="fas fa-check-circle"></i>
-              <span>verified</span>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Review Card 5 (5 Star) -->
-        <div class="review-card" data-rating="5">
-          <div class="review-quote"><i class="fas fa-quote-left"></i></div>
-          <div class="review-content">
-            <p class="review-text">
-              "The matcha latte is heavenly! Perfectly whisked, not too sweet. Will definitely order again."
-            </p>
-          </div>
-          <div class="reviewer-info">
-            <div class="reviewer-avatar">
-              <img src="assets/avatar-5.png" alt="Olivia P." onerror="this.src='https://ui-avatars.com/api/?name=OP&background=c47a3e&color=fff'">
-            </div>
-            <div class="reviewer-details">
-              <h4 class="reviewer-name">Olivia Parker</h4>
-              <div class="reviewer-rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-              <span class="review-date">1 month ago</span>
-            </div>
-            <div class="verified-badge">
-              <i class="fas fa-check-circle"></i>
-              <span>verified</span>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Review Card 6 (3 Star) -->
-        <div class="review-card" data-rating="3">
-          <div class="review-quote"><i class="fas fa-quote-left"></i></div>
-          <div class="review-content">
-            <p class="review-text">
-              "Good coffee but the wait time was longer than expected. Hopefully they improve their service speed."
-            </p>
-          </div>
-          <div class="reviewer-info">
-            <div class="reviewer-avatar">
-              <img src="assets/avatar-6.png" alt="Michael R." onerror="this.src='https://ui-avatars.com/api/?name=MR&background=c47a3e&color=fff'">
-            </div>
-            <div class="reviewer-details">
-              <h4 class="reviewer-name">Michael Ross</h4>
-              <div class="reviewer-rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-              </div>
-              <span class="review-date">1 month ago</span>
-            </div>
-            <div class="verified-badge">
-              <i class="fas fa-check-circle"></i>
-              <span>verified</span>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Review Card 7 (5 Star) -->
-        <div class="review-card" data-rating="5">
-          <div class="review-quote"><i class="fas fa-quote-left"></i></div>
-          <div class="review-content">
-            <p class="review-text">
-              "Absolutely love their packaging and the aroma when you open the bag. Premium quality beans!"
-            </p>
-          </div>
-          <div class="reviewer-info">
-            <div class="reviewer-avatar">
-              <img src="assets/avatar-7.png" alt="Sophia L." onerror="this.src='https://ui-avatars.com/api/?name=SL&background=c47a3e&color=fff'">
-            </div>
-            <div class="reviewer-details">
-              <h4 class="reviewer-name">Sophia Lee</h4>
-              <div class="reviewer-rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-              <span class="review-date">2 months ago</span>
-            </div>
-            <div class="verified-badge">
-              <i class="fas fa-check-circle"></i>
-              <span>verified</span>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Review Card 8 (5 Star) -->
-        <div class="review-card" data-rating="5">
-          <div class="review-quote"><i class="fas fa-quote-left"></i></div>
-          <div class="review-content">
-            <p class="review-text">
-              "The vanilla latte is pure bliss. Perfect balance of sweetness and coffee strength. My go-to spot!"
-            </p>
-          </div>
-          <div class="reviewer-info">
-            <div class="reviewer-avatar">
-              <img src="assets/avatar-8.png" alt="Isabella M." onerror="this.src='https://ui-avatars.com/api/?name=IM&background=c47a3e&color=fff'">
-            </div>
-            <div class="reviewer-details">
-              <h4 class="reviewer-name">Isabella Martinez</h4>
-              <div class="reviewer-rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-              <span class="review-date">2 months ago</span>
-            </div>
-            <div class="verified-badge">
-              <i class="fas fa-check-circle"></i>
-              <span>verified</span>
-            </div>
+          <div class="step-content">
+            <h3 class="step-title">artisan craft</h3>
+            <p class="step-description">trained in the art of specialty coffee, our baristas treat every cup as a masterpiece — from precise espresso extraction to intricate latte art.</p>
+            <div class="step-stat"><span class="stat-number">1000+</span><span class="stat-label">cups daily</span></div>
           </div>
         </div>
       </div>
-    </div>
-    
-    <!-- Add Review CTA -->
-    <div class="add-review-cta">
-      <div class="cta-content">
-        <i class="fas fa-pen-fancy"></i>
-        <div class="cta-text">
-          <h4>share your experience</h4>
-          <p>love lucent? tell us about your favorite coffee moment</p>
-        </div>
-        <button class="write-review-btn" id="writeReviewBtn">
-          <span>write a review</span>
-          <i class="fas fa-arrow-right"></i>
-        </button>
+      
+      <div class="journey-quote">
+        <div class="quote-mark">"</div>
+        <p class="quote-text">coffee is not just a beverage. it is a ritual, a connection, a moment of stillness in a busy world.</p>
+        <div class="quote-author">— lucent philosophy</div>
       </div>
     </div>
-  </div>
-  
-  <!-- Wave Divider -->
-  <div class="reviews-wave">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" preserveAspectRatio="none">
-      <path fill="var(--bg-primary)" d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path>
-    </svg>
-  </div>
-</section>
+    <div class="journey-wave"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none"><path fill="var(--bg-primary)" d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,100L1360,100C1280,100,1120,100,960,100C800,100,640,100,480,100C320,100,160,100,80,100L0,100Z"></path></svg></div>
+  </section>
 
-<!-- ========== PREMIUM FOOTER SECTION ========== -->
-<footer class="premium-footer" id="footer">
-  <div class="footer-bg-overlay"></div>
-  
-  <div class="footer-container">
+  <!-- ========== COFFEE EXPERIENCE SECTION ========== -->
+  <section class="coffee-experience" id="experience">
+    <div class="modern-title-box">
+      <h2 class="bg-outline-text">COLLECTION</h2>
+      <div class="foreground-content"><span class="sub-badge">Lucent Premium</span><h1 class="main-heading">Signature Selection</h1></div>
+    </div>
+    <div class="dynamic-bg-text" id="dynamicBgText">ESPRESSO</div>
     
-    <!-- Footer Main Grid -->
-    <div class="footer-grid">
-      
-      <!-- Column 1: Brand -->
-      <div class="footer-col brand-col">
-        <div class="footer-logo">
-          <span class="logo-icon"><img src="assets/beans-icon.png"></span>
-          <span class="logo-text">LUCENT</span>
+    <div class="experience-container">
+      <div class="wheel-display-wrapper">
+        <div class="experience-wheel" id="experienceWheel">
+          <div class="wheel-item" data-index="0"><img src="assets/espresso.png" alt="Espresso"></div>
+          <div class="wheel-item" data-index="1"><img src="assets/latte.png" alt="Latte"></div>
+          <div class="wheel-item" data-index="2"><img src="assets/matcha.png" alt="Matcha"></div>
+          <div class="wheel-item" data-index="3"><img src="assets/cappuccino.png" alt="Cappuccino"></div>
+          <div class="wheel-item" data-index="4"><img src="assets/macchiato.png" alt="Macchiato"></div>
+          <div class="wheel-item" data-index="5"><img src="assets/iced-coffee.png" alt="Iced Coffee"></div>
         </div>
-        <p class="brand-description">
-          Where light meets the perfect brew. Artisanal coffee crafted with precision, served with warmth since 2024.
-        </p>
-        <div class="brand-tagline">
-          <i class="fas fa-certificate"></i>
-          <span>premium arabica · ethical sourcing · daily roast</span>
-        </div>
+        <div class="active-coffee-holder"><img src="assets/espresso.png" id="mainActiveImg" alt="Coffee Display"><div class="active-glow"></div></div>
       </div>
-      
-      <!-- Column 2: Quick Links -->
-      <div class="footer-col">
-        <h4 class="footer-title">explore</h4>
-        <ul class="footer-links">
-          <li><a href="#home">home</a></li>
-          <li><a href="#menu">our menu</a></li>
-          <li><a href="#story">our story</a></li>
-          <li><a href="#reviews">reviews</a></li>
-        </ul>
-      </div>
-      
-      <!-- Column 3: Coffee Menu -->
-      <div class="footer-col">
-        <h4 class="footer-title">signature blends</h4>
-        <ul class="footer-links">
-          <li><a href="#">classic espresso</a></li>
-          <li><a href="#">velvet latte</a></li>
-          <li><a href="#">creamy cappuccino</a></li>
-          <li><a href="#">caramel macchiato</a></li>
-          <li><a href="#">cold brew nitro</a></li>
-        </ul>
-      </div>
-      
-      <!-- Column 4: Contact & Social -->
-      <div class="footer-col">
-        <h4 class="footer-title">connect</h4>
-        <ul class="footer-contact">
-          <li>
-            <i class="fas fa-map-marker-alt"></i>
-            <span>123 coffee lane, brew city, bc 12345</span>
-          </li>
-          <li>
-            <i class="fas fa-phone-alt"></i>
-            <span>+1 (555) 123-4567</span>
-          </li>
-          <li>
-            <i class="fas fa-envelope"></i>
-            <span>hello@lucentcafe.com</span>
-          </li>
-        </ul>
-        
-        <!-- Social Links -->
-        <div class="social-links">
-          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-          <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
-        </div>
+      <div class="experience-details">
+        <div class="details-header"><h2 class="details-title" id="coffeeTitle">Classic Espresso</h2></div>
+        <p class="details-description" id="coffeeDescription">Our signature espresso shot—crafted from the finest Arabica beans.</p>
+        <div class="details-features" id="featuresContainer"></div>
+        <div class="experience-controls"><button class="control-btn" id="prevCoffeeBtn"><i class="fas fa-arrow-left"></i></button><button class="control-btn" id="nextCoffeeBtn"><i class="fas fa-arrow-right"></i></button></div>
       </div>
     </div>
-    
-    <!-- Newsletter Section -->
-    <div class="newsletter-section">
-      <div class="newsletter-content">
-        <div class="newsletter-text">
-          <i class="fas fa-envelope-open-text"></i>
-          <div>
-            <h4>brew letters</h4>
-            <p>subscribe for exclusive offers & coffee stories</p>
-          </div>
-        </div>
-        <form class="newsletter-form" id="newsletterForm">
-          <div class="input-wrapper">
-            <input type="email" placeholder="your email address" id="newsletterEmail" required>
-            <button type="submit" class="subscribe-btn">
-              <span>subscribe</span>
-              <i class="fas fa-arrow-right"></i>
-            </button>
-          </div>
-          <p class="form-note">no spam, just pure coffee love. unsubscribe anytime.</p>
-        </form>
-      </div>
-    </div>
-    
-    <!-- Bottom Bar -->
-    <div class="footer-bottom">
-      <div class="copyright">
-        <p>&copy; 2024 lucent cafe. all rights reserved.</p>
-      </div>
-      <div class="legal-links">
-        <a href="#">privacy policy</a>
-        <span class="separator">|</span>
-        <a href="#">terms of service</a>
-        <span class="separator">|</span>
-        <a href="#">cookies</a>
-      </div>
-      <div class="back-to-top">
-        <button id="backToTopBtn" class="back-to-top-btn">
-          <i class="fas fa-arrow-up"></i>
-          <span>back to top</span>
-        </button>
-      </div>
-    </div>
-    
-  </div>
-</footer>
+  </section>
 
-  <!-- External JavaScript -->
+  <!-- ========== COFFEE ORDER & CUSTOMIZATION SECTION ========== -->
+  <section class="order-customization" id="orderSection">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="header-badge">artisan selection</span>
+        <h2 class="section-title">find & craft <span class="title-accent">your coffee</span></h2>
+        <p class="section-subtitle">curated blends · personalized ritual · every sip tells a story</p>
+        <div class="header-underline"></div>
+      </div>
+
+      <div class="search-wrapper">
+        <div class="search-glass">
+          <i class="fas fa-search search-icon"></i>
+          <input type="text" id="coffeeSearch" class="search-input" placeholder="Search coffee (Espresso, Latte, Mocha...)" autocomplete="off">
+          <button class="search-clear" id="searchClearBtn"><i class="fas fa-times"></i></button>
+        </div>
+      </div>
+
+      <div class="showcase-header"><span class="showcase-label">signature selection</span><div class="scroll-hint"><i class="fas fa-arrow-right"></i> swipe</div></div>
+      <div class="coffee-scroll-wrapper"><div class="coffee-horizontal" id="coffeeHorizontalGrid"></div></div>
+
+      <div class="builder-section">
+        <div class="builder-head"><span class="builder-badge">your ritual</span><h3 class="builder-title">build your perfect cup</h3></div>
+        <div class="builder-grid">
+          <div class="customizer-panel">
+            <div class="option-group"><div class="option-label"><i class="fas fa-cup-straw"></i> size</div><div class="pill-group" id="sizeGroup"><button class="pill-btn" data-size="small">small <span class="size-ml">240ml</span></button><button class="pill-btn active" data-size="medium">medium <span class="size-ml">360ml</span></button><button class="pill-btn" data-size="large">large <span class="size-ml">480ml</span></button></div></div>
+            <div class="option-group"><div class="option-label"><i class="fas fa-tint"></i> milk</div><div class="pill-group" id="milkGroup"><button class="pill-btn active" data-milk="regular">regular</button><button class="pill-btn" data-milk="almond">almond</button><button class="pill-btn" data-milk="oat">oat</button></div></div>
+            <div class="option-group"><div class="option-label"><i class="fas fa-cube"></i> sweetness</div><div class="pill-group" id="sugarGroup"><button class="pill-btn" data-sugar="low">low</button><button class="pill-btn active" data-sugar="medium">medium</button><button class="pill-btn" data-sugar="high">high</button></div></div>
+            <div class="option-group extras-group"><div class="option-label"><i class="fas fa-sparkle"></i> extra indulgences</div><div class="extras-grid" id="extrasGrid"><label class="extra-chip"><input type="checkbox" data-extra="chocolate"><span class="extra-name">chocolate topping</span><span class="extra-price">+0.60</span></label><label class="extra-chip"><input type="checkbox" data-extra="caramel"><span class="extra-name">caramel drizzle</span><span class="extra-price">+0.50</span></label><label class="extra-chip"><input type="checkbox" data-extra="whipped"><span class="extra-name">whipped cream</span><span class="extra-price">+0.70</span></label></div></div>
+          </div>
+          <div class="preview-panel">
+            <div class="preview-glass">
+              <div class="coffee-visual"><div class="cup-outer"><img src="assets/paper-cup.png" alt="coffee preview" class="preview-image" id="previewImage"><div class="preview-glow"></div></div><div class="visual-badge" id="dynamicBadge">medium · regular · medium</div></div>
+              <div class="preview-details"><div class="price-preview"><span class="price-label">estimated price</span><div class="price-value"><span class="currency">$</span><span id="dynamicPrice">5.20</span></div></div><div class="selected-notes" id="selectedNotes">size: medium | milk: regular | sweetness: medium</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="action-area"><button class="order-cta" id="createOrderBtn"><span>create & order coffee</span><i class="fas fa-arrow-right"></i></button><p class="action-note">each blend is freshly crafted after order</p></div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS & REVIEWS SECTION ========== -->
+  <section class="reviews-section" id="reviews">
+    <div class="reviews-bg-glow"></div>
+    <div class="reviews-container">
+      <div class="reviews-header"><span class="reviews-badge">community voices</span><h2 class="reviews-title">loved by<br><span class="title-accent">coffee lovers</span></h2><p class="reviews-subtitle">real experiences from our cherished patrons</p><div class="reviews-divider"></div></div>
+      
+      <div class="rating-overview">
+        <div class="rating-score"><div class="score-number">4.9</div><div class="score-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div><div class="score-count">based on 2,847 reviews</div></div>
+        <div class="rating-bars"><div class="bar-item"><span class="bar-label">5 star</span><div class="bar-bg"><div class="bar-fill" style="width: 85%"></div></div><span class="bar-percent">85%</span></div><div class="bar-item"><span class="bar-label">4 star</span><div class="bar-bg"><div class="bar-fill" style="width: 10%"></div></div><span class="bar-percent">10%</span></div><div class="bar-item"><span class="bar-label">3 star</span><div class="bar-bg"><div class="bar-fill" style="width: 3%"></div></div><span class="bar-percent">3%</span></div><div class="bar-item"><span class="bar-label">2 star</span><div class="bar-bg"><div class="bar-fill" style="width: 1%"></div></div><span class="bar-percent">1%</span></div><div class="bar-item"><span class="bar-label">1 star</span><div class="bar-bg"><div class="bar-fill" style="width: 1%"></div></div><span class="bar-percent">1%</span></div></div>
+      </div>
+
+      <div class="review-filters"><button class="filter-btn active" data-filter="all">all reviews</button><button class="filter-btn" data-filter="5">5 star</button><button class="filter-btn" data-filter="4">4 star</button><button class="filter-btn" data-filter="3">3 star</button></div>
+
+      <div class="reviews-scroll-wrapper">
+        <div class="reviews-track" id="reviewsTrack">
+          <div class="review-card" data-rating="5"><div class="review-quote"><i class="fas fa-quote-left"></i></div><div class="review-content"><p class="review-text">"The best espresso I've ever had. Rich, smooth, and absolutely perfect. Lucent has become my daily ritual."</p></div><div class="reviewer-info"><div class="reviewer-avatar"><img src="assets/avatar-1.png" alt="Sarah M." onerror="this.src='https://ui-avatars.com/api/?name=SM&background=c47a3e&color=fff'"></div><div class="reviewer-details"><h4 class="reviewer-name">Sarah Mitchell</h4><div class="reviewer-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><span class="review-date">2 days ago</span></div><div class="verified-badge"><i class="fas fa-check-circle"></i><span>verified</span></div></div></div>
+          <div class="review-card" data-rating="5"><div class="review-quote"><i class="fas fa-quote-left"></i></div><div class="review-content"><p class="review-text">"Their cold brew is exceptional. Smooth, never bitter, and the perfect pick-me-up for afternoon slumps."</p></div><div class="reviewer-info"><div class="reviewer-avatar"><img src="assets/avatar-2.png" alt="James C." onerror="this.src='https://ui-avatars.com/api/?name=JC&background=c47a3e&color=fff'"></div><div class="reviewer-details"><h4 class="reviewer-name">James Chen</h4><div class="reviewer-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><span class="review-date">1 week ago</span></div><div class="verified-badge"><i class="fas fa-check-circle"></i><span>verified</span></div></div></div>
+          <div class="review-card" data-rating="5"><div class="review-quote"><i class="fas fa-quote-left"></i></div><div class="review-content"><p class="review-text">"Finally found a place that takes coffee seriously. The baristas are true artists. Highly recommended!"</p></div><div class="reviewer-info"><div class="reviewer-avatar"><img src="assets/avatar-3.png" alt="Emma W." onerror="this.src='https://ui-avatars.com/api/?name=EW&background=c47a3e&color=fff'"></div><div class="reviewer-details"><h4 class="reviewer-name">Emma Watson</h4><div class="reviewer-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><span class="review-date">2 weeks ago</span></div><div class="verified-badge"><i class="fas fa-check-circle"></i><span>verified</span></div></div></div>
+          <div class="review-card" data-rating="4"><div class="review-quote"><i class="fas fa-quote-left"></i></div><div class="review-content"><p class="review-text">"Lovely atmosphere and great coffee. The caramel latte is my favorite. A bit pricey but worth it."</p></div><div class="reviewer-info"><div class="reviewer-avatar"><img src="assets/avatar-4.png" alt="David K." onerror="this.src='https://ui-avatars.com/api/?name=DK&background=c47a3e&color=fff'"></div><div class="reviewer-details"><h4 class="reviewer-name">David Kim</h4><div class="reviewer-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div><span class="review-date">3 weeks ago</span></div><div class="verified-badge"><i class="fas fa-check-circle"></i><span>verified</span></div></div></div>
+          <div class="review-card" data-rating="5"><div class="review-quote"><i class="fas fa-quote-left"></i></div><div class="review-content"><p class="review-text">"The matcha latte is heavenly! Perfectly whisked, not too sweet. Will definitely order again."</p></div><div class="reviewer-info"><div class="reviewer-avatar"><img src="assets/avatar-5.png" alt="Olivia P." onerror="this.src='https://ui-avatars.com/api/?name=OP&background=c47a3e&color=fff'"></div><div class="reviewer-details"><h4 class="reviewer-name">Olivia Parker</h4><div class="reviewer-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><span class="review-date">1 month ago</span></div><div class="verified-badge"><i class="fas fa-check-circle"></i><span>verified</span></div></div></div>
+          <div class="review-card" data-rating="3"><div class="review-quote"><i class="fas fa-quote-left"></i></div><div class="review-content"><p class="review-text">"Good coffee but the wait time was longer than expected. Hopefully they improve their service speed."</p></div><div class="reviewer-info"><div class="reviewer-avatar"><img src="assets/avatar-6.png" alt="Michael R." onerror="this.src='https://ui-avatars.com/api/?name=MR&background=c47a3e&color=fff'"></div><div class="reviewer-details"><h4 class="reviewer-name">Michael Ross</h4><div class="reviewer-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div><span class="review-date">1 month ago</span></div><div class="verified-badge"><i class="fas fa-check-circle"></i><span>verified</span></div></div></div>
+          <div class="review-card" data-rating="5"><div class="review-quote"><i class="fas fa-quote-left"></i></div><div class="review-content"><p class="review-text">"Absolutely love their packaging and the aroma when you open the bag. Premium quality beans!"</p></div><div class="reviewer-info"><div class="reviewer-avatar"><img src="assets/avatar-7.png" alt="Sophia L." onerror="this.src='https://ui-avatars.com/api/?name=SL&background=c47a3e&color=fff'"></div><div class="reviewer-details"><h4 class="reviewer-name">Sophia Lee</h4><div class="reviewer-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><span class="review-date">2 months ago</span></div><div class="verified-badge"><i class="fas fa-check-circle"></i><span>verified</span></div></div></div>
+          <div class="review-card" data-rating="5"><div class="review-quote"><i class="fas fa-quote-left"></i></div><div class="review-content"><p class="review-text">"The vanilla latte is pure bliss. Perfect balance of sweetness and coffee strength. My go-to spot!"</p></div><div class="reviewer-info"><div class="reviewer-avatar"><img src="assets/avatar-8.png" alt="Isabella M." onerror="this.src='https://ui-avatars.com/api/?name=IM&background=c47a3e&color=fff'"></div><div class="reviewer-details"><h4 class="reviewer-name">Isabella Martinez</h4><div class="reviewer-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><span class="review-date">2 months ago</span></div><div class="verified-badge"><i class="fas fa-check-circle"></i><span>verified</span></div></div></div>
+        </div>
+      </div>
+
+      <div class="add-review-cta"><div class="cta-content"><i class="fas fa-pen-fancy"></i><div class="cta-text"><h4>share your experience</h4><p>love lucent? tell us about your favorite coffee moment</p></div><button class="write-review-btn" id="writeReviewBtn"><span>write a review</span><i class="fas fa-arrow-right"></i></button></div></div>
+    </div>
+    <div class="reviews-wave"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" preserveAspectRatio="none"><path fill="var(--bg-primary)" d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path></svg></div>
+  </section>
+
+  <!-- ========== PREMIUM FOOTER SECTION ========== -->
+  <footer class="premium-footer" id="footer">
+    <div class="footer-bg-overlay"></div>
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-col brand-col"><div class="footer-logo"><span class="logo-icon"><img src="assets/beans-icon.png" alt="logo"></span><span class="logo-text">LUCENT</span></div><p class="brand-description">Where light meets the perfect brew. Artisanal coffee crafted with precision, served with warmth since 2024.</p><div class="brand-tagline"><i class="fas fa-certificate"></i><span>premium arabica · ethical sourcing · daily roast</span></div></div>
+        <div class="footer-col"><h4 class="footer-title">explore</h4><ul class="footer-links"><li><a href="#home">home</a></li><li><a href="#experience">our menu</a></li><li><a href="#philosophy">our story</a></li><li><a href="#reviews">reviews</a></li></ul></div>
+        <div class="footer-col"><h4 class="footer-title">signature blends</h4><ul class="footer-links"><li><a href="#">classic espresso</a></li><li><a href="#">velvet latte</a></li><li><a href="#">creamy cappuccino</a></li><li><a href="#">caramel macchiato</a></li><li><a href="#">cold brew nitro</a></li></ul></div>
+        <div class="footer-col"><h4 class="footer-title">connect</h4><ul class="footer-contact"><li><i class="fas fa-map-marker-alt"></i><span>123 coffee lane, brew city, bc 12345</span></li><li><i class="fas fa-phone-alt"></i><span>+1 (555) 123-4567</span></li><li><i class="fas fa-envelope"></i><span>hello@lucentcafe.com</span></li></ul><div class="social-links"><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-pinterest-p"></i></a></div></div>
+      </div>
+      <div class="newsletter-section"><div class="newsletter-content"><div class="newsletter-text"><i class="fas fa-envelope-open-text"></i><div><h4>brew letters</h4><p>subscribe for exclusive offers & coffee stories</p></div></div><form class="newsletter-form" id="newsletterForm"><div class="input-wrapper"><input type="email" placeholder="your email address" id="newsletterEmail" required><button type="submit" class="subscribe-btn"><span>subscribe</span><i class="fas fa-arrow-right"></i></button></div><p class="form-note">no spam, just pure coffee love. unsubscribe anytime.</p></form></div></div>
+      <div class="footer-bottom"><div class="copyright"><p>&copy; 2024 lucent cafe. all rights reserved.</p></div><div class="legal-links"><a href="#">privacy policy</a><span class="separator">|</span><a href="#">terms of service</a><span class="separator">|</span><a href="#">cookies</a></div><div class="back-to-top"><button id="backToTopBtn" class="back-to-top-btn"><i class="fas fa-arrow-up"></i><span>back to top</span></button></div></div>
+    </div>
+  </footer>
+
   <script src="js/script.js"></script>
 </body>
 </html>
