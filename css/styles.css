@@ -390,6 +390,7 @@ input:checked + .slider:before {
   overflow-x: clip;
 }
 
+
 /* Bottom Right - Beans in Spoon */
 .journey-excellence::after,
 .coffee-experience::after,
@@ -402,7 +403,7 @@ input:checked + .slider:before {
   right: 20px;
   width: 120px;
   height: 120px;
-  background-image: url('/assets/beans-in-spoon.png');
+  background-image: url('assets/beans-in-spoon.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -424,7 +425,7 @@ input:checked + .slider:before {
   left: 20px;
   width: 100px;
   height: 100px;
-  background-image: url('/assets/3beans.png');
+  background-image: url('assets/3beans.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top left;
@@ -445,7 +446,7 @@ input:checked + .slider:before {
   left: 30px;
   width: 80px;
   height: 80px;
-  background-image: url('/assets/leaf-art.png');
+  background-image: url('assets/leaf-art.png');
   background-size: contain;
   background-repeat: no-repeat;
   pointer-events: none;
@@ -468,7 +469,7 @@ input:checked + .slider:before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/assets/coffee-beans-cover.png');
+  background-image: url('assets/coffee-beans-cover.png');
   background-size: cover;
   background-position: center;
   opacity: 0.12;
@@ -1920,7 +1921,7 @@ body.dark .journey-excellence::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/assets/footer-bg.jpg');
+  background-image: url('assets/footer-bg.jpg');
   background-size: cover;
   background-position: center;
   opacity: 0.18;
@@ -2417,7 +2418,7 @@ body.dark .order-cta {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/assets/coffee-beans-cover.png');
+  background-image: url('assets/coffee-beans-cover.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2443,7 +2444,7 @@ body.dark .order-customization::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/assets/coffee-beans-cover.png');
+  background-image: url('assets/coffee-beans-cover.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
