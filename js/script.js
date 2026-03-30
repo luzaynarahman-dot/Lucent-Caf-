@@ -231,12 +231,12 @@ function initCoffeeWheel() {
 
 // ========== 10. ORDER & CUSTOMIZATION SECTION ==========
 const popularCoffees = [
-    { id: 1, name: "Classic Espresso", price: 3.50, rating: 4.8, image: "/assets/espresso.png", category: "espresso" },
-    { id: 2, name: "Velvet Latte", price: 4.80, rating: 4.9, image: "/assets/latte.png", category: "latte" },
-    { id: 3, name: "Caramel Macchiato", price: 5.20, rating: 4.9, image: "/assets/macchiato.png", category: "macchiato" },
-    { id: 4, name: "Creamy Cappuccino", price: 4.50, rating: 4.7, image: "/assets/cappuccino.png", category: "cappuccino" },
-    { id: 5, name: "Mocha Delight", price: 5.00, rating: 4.8, image: "/assets/mocha.png", category: "mocha" },
-    { id: 6, name: "Cold Brew Nitro", price: 5.50, rating: 4.9, image: "/assets/coldbrew.png", category: "cold" }
+    { id: 1, name: "Classic Espresso", price: 3.50, rating: 4.8, image: "assets/espresso.png", category: "espresso" },
+    { id: 2, name: "Velvet Latte", price: 4.80, rating: 4.9, image: "assets/latte.png", category: "latte" },
+    { id: 3, name: "Caramel Macchiato", price: 5.20, rating: 4.9, image: "assets/macchiato.png", category: "macchiato" },
+    { id: 4, name: "Creamy Cappuccino", price: 4.50, rating: 4.7, image: "assets/cappuccino.png", category: "cappuccino" },
+    { id: 5, name: "Mocha Delight", price: 5.00, rating: 4.8, image: "assets/mocha.png", category: "mocha" },
+    { id: 6, name: "Cold Brew Nitro", price: 5.50, rating: 4.9, image: "assets/coldbrew.png", category: "cold" }
 ];
 
 let customCoffeeState = {
@@ -274,7 +274,7 @@ function renderPopularCoffees(filterText = "") {
 
     container.innerHTML = filteredCoffees.map(coffee => `
         <div class="coffee-card-item" data-id="${coffee.id}" data-name="${coffee.name}" data-price="${coffee.price}">
-            <div class="card-image"><img src="${coffee.image}" alt="${coffee.name}" onerror="this.src='/assets/coffee-placeholder.png'"></div>
+            <div class="card-image"><img src="${coffee.image}" alt="${coffee.name}" onerror="this.src='assets/coffee-placeholder.png'"></div>
             <h4 class="card-name">${coffee.name}</h4>
             <div class="card-rating"><i class="fas fa-star"></i><span>${coffee.rating}</span></div>
             <div class="card-price">$${coffee.price.toFixed(2)}</div>
